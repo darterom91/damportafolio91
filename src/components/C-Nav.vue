@@ -14,6 +14,7 @@
         <img class="timon" src="@/assets/img/timon.png" alt="">
       </div>
     </div>
+    
   </div>
 </template>
 

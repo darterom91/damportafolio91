@@ -7,7 +7,7 @@
       <h1 class="titlePage">David Artero Martin</h1>
       <div class="contactInfo">
         <div class="contactEmail"><a href=""><img src="@/assets/img/computer-tablet.png" alt=""></a></div>
-        <h2 class="subTitle">Junior Front-end Developer</h2>
+        <h2 class="subTitle">Front-end Developer</h2>
         <div class="contactPhone"><a href=""><img src="@/assets/img/gmail.png" alt=""></a></div>
       </div>
       <div class="navegation">
@@ -38,7 +38,7 @@ header {
   border: 1px solid white;
   background-image: url("../assets/img/fondo-oscuro2.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-attachment: fixed;
 }
 
