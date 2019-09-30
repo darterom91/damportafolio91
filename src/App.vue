@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
+  <v-app>
     <cHeader/>
     <cSection/>
     <cFooter/>
-  </div>
+  </v-app>
 </template>
 
 <script>
