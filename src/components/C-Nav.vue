@@ -4,12 +4,12 @@
       <div class="img1">
         <img class="skull" src="@/assets/img/murray.png" alt="">
       </div>
-      <ul>
+      <!-- <ul>
         <li><a href="">personInfo</a></li>
         <li><a href="">infoOther</a></li>
         <li><a href="">skills</a></li>
         <li><a href="">Proyectos</a></li>
-      </ul>
+      </ul> -->
 
       <v-app-bar
       src="@/assets/img/fondoMapa.jpg"
