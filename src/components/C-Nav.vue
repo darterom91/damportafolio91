@@ -7,14 +7,44 @@
       <ul>
         <li><a href="">personInfo</a></li>
         <li><a href="">infoOther</a></li>
-        <li><a href="">skins</a></li>
+        <li><a href="">skills</a></li>
         <li><a href="">Proyectos</a></li>
       </ul>
+
+      <v-app-bar
+      src="@/assets/img/fondoMapa.jpg"
+      sm="1"
+    >
+      <v-menu
+        light
+        color="primary"
+      >
+
+        <template v-slot:activator="{ on }">
+            <v-app-bar-nav-icon icon v-on="on"></v-app-bar-nav-icon>
+        </template>
+
+        <v-list-item-content>
+            <v-list-item-title>personInfo</v-list-item-title>
+        </v-list-item-content>
+        <v-list-item-content>
+            <v-list-item-title>infoOther</v-list-item-title>
+        </v-list-item-content>
+        <v-list-item-content>
+            <v-list-item-title>skins</v-list-item-title>
+        </v-list-item-content>
+        <v-list-item-content>
+            <v-list-item-title>Proyectos</v-list-item-title>
+        </v-list-item-content>  
+      </v-menu>
+
+      <v-toolbar-title >Page title</v-toolbar-title>
+
+    </v-app-bar>
       <div class="img2">
         <img class="timon" src="@/assets/img/timon.png" alt="">
       </div>
     </div>
-    
   </div>
 </template>
 
