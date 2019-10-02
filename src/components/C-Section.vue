@@ -1,19 +1,32 @@
 <template>
   <div>
     <section>
-      <div class="personInfo">
+
+      <div
+      v-if="vPersonInfo == bol" class="personInfo">
+      escoge alguna de las opciones
+      </div>
+
+      <div
+      v-if="vPersonInfo == bol" class="personInfo">
         <CPersonInfo/>
       </div>
 
-      <div class="infoOther">
+      <div
+      v-if="vInfoOther == bol"
+      class="infoOther">
         <CInfoOther/>
       </div>
 
-      <div class="skins">
+      <div
+      v-if="vSkills == bol"
+      class="skins">
         <CSkills/>
       </div>
 
-      <div class="Proyectos">
+      <div
+      v-if="vProyectos == bol"
+      class="Proyectos">
         <CProyecto/>
       </div>
 
@@ -26,14 +39,23 @@ import CPersonInfo from '../components/C-PersonInfo.vue'
 import CInfoOther from '../components/C-InfoOther.vue'
 import CSkills from '../components/C-Skills.vue'
 import CProyecto from '../components/C-Proyectos.vue'
+import {mapState} from 'vuex'
 
 export default {
+  data() {
+    return {
+      bol: true
+    }
+  },
   components :{
     CPersonInfo,
     CInfoOther,
     CSkills,
     CProyecto
-  }
+  },
+  computed: {
+    ...mapState(['vPersonInfo','vInfoOther','vSkills', 'vProyectos'])
+  },
 }
 </script>
 

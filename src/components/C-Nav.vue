@@ -4,14 +4,14 @@
       <div class="img1">
         <img class="skull" src="@/assets/img/murray.png" alt="">
       </div>
-      <!-- <ul>
-        <li><a href="">personInfo</a></li>
-        <li><a href="">infoOther</a></li>
-        <li><a href="">skills</a></li>
-        <li><a href="">Proyectos</a></li>
-      </ul> -->
+      <ul>
+        <li><a @click="selvPersonInfo">personInfo</a></li>
+        <li><a @click="selvInfoOther">infoOther</a></li>
+        <li><a @click="selvskills">skills</a></li>
+        <li><a @click="selvProyectos">proyectos</a></li>
+      </ul>
 
-      <v-app-bar
+      <!-- <v-app-bar
       src="@/assets/img/fondoMapa.jpg"
       sm="1"
     >
@@ -40,13 +40,27 @@
 
       <v-toolbar-title >Page title</v-toolbar-title>
 
-    </v-app-bar>
+    </v-app-bar> -->
       <div class="img2">
         <img class="timon" src="@/assets/img/timon.png" alt="">
       </div>
     </div>
   </div>
 </template>
+
+<script>
+
+import {mapState, mapMutations} from 'vuex'
+export default {
+  computed: {
+    ...mapState(['vPersonInfo','vInfoOther','vSkills', 'vProyectos'])
+  },
+
+  methods: {
+    ...mapMutations(['selvPersonInfo','selvInfoOther','selvskills','selvProyectos'])
+  },
+}
+</script>
 
 <style scoped>
 
@@ -130,9 +144,3 @@ div > img{
 }
 
 </style>
-
-<script>
-export default {
-  
-}
-</script>
