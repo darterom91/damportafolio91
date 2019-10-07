@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    vPersonInfo: false,
+    vPersonInfo: true,
     vInfoOther: false,
     vSkills: false,
     vProyectos: false

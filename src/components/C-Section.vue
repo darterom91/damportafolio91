@@ -4,11 +4,6 @@
 
       <div
       v-if="vPersonInfo == bol" class="personInfo">
-      escoge alguna de las opciones
-      </div>
-
-      <div
-      v-if="vPersonInfo == bol" class="personInfo">
         <CPersonInfo/>
       </div>
 
@@ -69,12 +64,7 @@ export default {
 section {
   font-family: fontPirate;
   border: 1px solid white;
-  background-color: white;
   padding: 20px;
-  background-image: url("../assets/img/marOscuro.jpg");
-  background-size: cover;
-  background-position: bottom;
-  background-attachment: fixed;
 }
 
 section > div{
@@ -82,10 +72,6 @@ section > div{
   border: 1px solid rgb(241, 234, 234);
   color: rgb(136, 101, 50);
   padding: 2%;
-  background-image: url("../assets/img/fondoMapa.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 </style>

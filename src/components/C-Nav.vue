@@ -1,15 +1,14 @@
 <template>
   <div class="nav">
-    <div class="menu">
       <div class="img1">
-        <img class="skull" src="@/assets/img/murray.png" alt="">
+        <img class="skull" src="@/assets/logo.png" alt="">
       </div>
-      <ul>
+      <div class="menu">
         <li><a @click="selvPersonInfo">personInfo</a></li>
         <li><a @click="selvInfoOther">infoOther</a></li>
         <li><a @click="selvskills">skills</a></li>
         <li><a @click="selvProyectos">proyectos</a></li>
-      </ul>
+      </div>
 
       <!-- <v-app-bar
       src="@/assets/img/fondoMapa.jpg"
@@ -42,9 +41,8 @@
 
     </v-app-bar> -->
       <div class="img2">
-        <img class="timon" src="@/assets/img/timon.png" alt="">
+        <img class="timon" src="@/assets/img/firebase_logo.png" alt="">
       </div>
-    </div>
   </div>
 </template>
 
@@ -71,27 +69,32 @@ export default {
 
 .nav {
   font-family: fontPirate;
+  border: 1px solid black;
+  background-color: black;
+  padding: 2%;
+  display: flex;
+  justify-content: space-evenly;
 }
 .menu {
   display: flex;
   justify-content: center;
+  background-color: white;
 }
-ul {
+.menu {
+  border: 1px solid black;
   display: flex;
-  justify-content: center;
+  padding: 10px;
+  justify-content: start;
 }
 
-ul > li {
+.menu > li {
   list-style: none;
-  border: 4px solid rgb(131, 110, 61);
-  border-radius: 10%;
-  background-image: url("../assets/img/fondoMapa.jpg");
-  background-size: cover;
-  background-position: bottom;
-  background-attachment: fixed;
-  color: rgb(131, 110, 61);
- 
-  padding: 20px;
+  border: 1px solid black;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
 }
 
 a{
@@ -105,30 +108,28 @@ a{
   flex: 1;
 }
 
-div > img{
-  width: 100px;
-}
 
 .img1 {
-  position: relative;
-  margin-right: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: white;
+  border-radius: 100%;
+
 }
 
 .img1 > .skull {
-  float: left;
-  left: 0;
-  margin: -20px;
+  width: 60px;
+  margin: auto;
 }
 
 .img2 {
-  position: relative;
-  margin-left: 25px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 100%;
 }
 
 .img2 > .timon {
-  float: right;
-  right: 0;
-  margin: -20px;
+   width: 100px;
 }
 
 @media (max-width: 600px) {
@@ -138,9 +139,9 @@ div > img{
     width: 200px;
     text-align: center;
   }
-  div > img{
-  width: 80px;
-}
+  div > img {
+    width: 80px;
+  }
 }
 
 </style>

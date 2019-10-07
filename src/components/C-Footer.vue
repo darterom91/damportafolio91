@@ -31,10 +31,6 @@ export default {
  footer {
   height: 200px;
   margin-top: 1px;
-  background-image: url("../assets/img/arenaDark.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 footer > .part1 {
