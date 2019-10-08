@@ -56,22 +56,50 @@ export default {
 
 <style scoped>
 
-@font-face{
-  font-family: fontPirate;
-  src: url(../assets/fonts/PirataOne-Regular.ttf);
-}
-
 section {
-  font-family: fontPirate;
+  font-family: Arial, Helvetica, sans-serif;
   border: 1px solid white;
-  padding: 20px;
+  /* background-image: url("../assets/img/informatica-fondo.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; */
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 section > div{
-  margin: 10px;
-  border: 1px solid rgb(241, 234, 234);
-  color: rgb(136, 101, 50);
-  padding: 2%;
+  margin: 5px;
+  color: black;
+  padding: 1%;
+  flex-shrink: 1;
+}
+
+@media(max-width: 900px){
+  section {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media(max-width: 500px){
+  section {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media(max-width: 400px){
+  section {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 </style>

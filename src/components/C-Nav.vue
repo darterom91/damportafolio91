@@ -1,13 +1,14 @@
 <template>
   <div class="nav">
-      <div class="img1">
+      <!-- <div class="img1">
         <img class="skull" src="@/assets/logo.png" alt="">
-      </div>
+      </div> -->
       <div class="menu">
-        <li><a @click="selvPersonInfo">personInfo</a></li>
-        <li><a @click="selvInfoOther">infoOther</a></li>
-        <li><a @click="selvskills">skills</a></li>
-        <li><a @click="selvProyectos">proyectos</a></li>
+        <li><a class="white--text" @click="selvPersonInfo">Per-Info</a></li>
+        <li><a class="white--text" @click="selvInfoOther">infoOther</a></li>
+        <li><a class="white--text" @click="selvskills">Skills</a></li>
+        <li><a class="white--text" @click="selvProyectos">Proyectos</a></li>
+        <li class="all"><a class="black--text" @click="allInfo">All</a></li>
       </div>
 
       <!-- <v-app-bar
@@ -40,9 +41,9 @@
       <v-toolbar-title >Page title</v-toolbar-title>
 
     </v-app-bar> -->
-      <div class="img2">
-        <img class="timon" src="@/assets/img/firebase_logo.png" alt="">
-      </div>
+      <!-- <div class="img2">
+        <img class="timon" src="@/assets/img/murray.png" alt="">
+      </div> -->
   </div>
 </template>
 
@@ -55,92 +56,159 @@ export default {
   },
 
   methods: {
-    ...mapMutations(['selvPersonInfo','selvInfoOther','selvskills','selvProyectos'])
+    ...mapMutations(['selvPersonInfo','selvInfoOther','selvskills','selvProyectos', 'allInfo'])
   },
 }
 </script>
 
 <style scoped>
 
-@font-face{
-  font-family: fontPirate;
-  src: url(../assets/fonts/PirataOne-Regular.ttf);
-}
-
 .nav {
-  font-family: fontPirate;
-  border: 1px solid black;
-  background-color: black;
-  padding: 2%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: rgb(0, 166, 41);
+  padding: 5px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .menu {
   display: flex;
   justify-content: center;
-  background-color: white;
-}
-.menu {
-  border: 1px solid black;
-  display: flex;
-  padding: 10px;
-  justify-content: start;
+  align-items: center;
 }
 
 .menu > li {
   list-style: none;
-  border: 1px solid black;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 10px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 1px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.menu > .all {
+  list-style: none;
+  background-color: white;
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+
+}
+.all > a{
+  color: black;
 }
 
 a{
   text-decoration: none;
-  color: black;
+  font-size: 0.9em;
 }
-
-.logo {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-}
-
 
 .img1 {
   border: 1px solid black;
-  padding: 20px;
   background-color: white;
   border-radius: 100%;
-
+  padding: 20px;
 }
 
 .img1 > .skull {
-  width: 60px;
-  margin: auto;
+  width: 50px;
 }
 
 .img2 {
   border: 1px solid black;
   background-color: white;
   border-radius: 100%;
+  padding: 10px;
 }
 
 .img2 > .timon {
-   width: 100px;
+  width: 50px;
+}
+
+@media(max-width: 900px){
+  .menu > li {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+  }
+
+  .menu > .all {
+    list-style: none;
+    background-color: white;
+    width: 50px;
+  }
+
+  a{
+    text-decoration: none;
+  }
 }
 
 @media (max-width: 600px) {
-  ul {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
+  .menu > li {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90px;
     text-align: center;
+    padding: 10px;
   }
-  div > img {
+
+  .menu > .all {
+    list-style: none;
+    background-color: white;
+    width: 40px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+}
+
+@media(max-width: 500px){
+  .menu > li {
+    margin-left: 5px;
+    margin-right: 5px;
     width: 80px;
+    text-align: center;
+    padding: 10px;
+  }
+  .menu > .all {
+    list-style: none;
+    background-color: white;
+    width: 40px;
+  }
+  a{
+    font-size: 0.8em;
+  }
+}
+
+@media(max-width: 400px){
+  .nav {
+    margin-top: 5px;
+  }
+
+  .menu > li {
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 60px;
+    text-align: center;
+    padding: 3px;
+  }
+
+  .menu > .all {
+    list-style: none;
+    background-color: white;
+    width: 20px;
+  }
+
+  a{
+    font-size: 0.6em;
   }
 }
 

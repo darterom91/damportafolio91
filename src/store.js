@@ -6,9 +6,9 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     vPersonInfo: true,
-    vInfoOther: false,
-    vSkills: false,
-    vProyectos: false
+    vInfoOther: true,
+    vSkills: true,
+    vProyectos: true
   },
   mutations: {
     selvPersonInfo(state){
@@ -24,6 +24,21 @@ export default new Vuex.Store({
         "vSkills = " + state.vSkills + "\n" +
         "vPersonInfo = " + state.vPersonInfo);
     },
+
+    allInfo(state) {
+      console.log("selvPersonInfo");
+
+      state.vPersonInfo = true;
+      state.vInfoOther = true;
+      state.vSkills = true;
+      state.vProyectos = true;
+
+      console.log("vPersonInfo = " + state.vPersonInfo + "\n" +
+        "vInfoOther = " + state.vInfoOther + "\n" +
+        "vSkills = " + state.vSkills + "\n" +
+        "vPersonInfo = " + state.vPersonInfo);
+    },
+
     selvInfoOther(state) {
       console.log("selvInfoOther");
       state.vPersonInfo = false;

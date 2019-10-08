@@ -31,6 +31,7 @@ export default {
  footer {
   height: 200px;
   margin-top: 1px;
+  background-color: black;
 }
 
 footer > .part1 {
@@ -90,23 +91,35 @@ li a > img {
 
 @media (max-width: 600px){
   footer > .part1 {
-    font-size: 1.0em;
+    font-size: 1.1em;
   }
 
-  footer > .part2 {
-    font-size: 1.0em;
+  li a > img {
+    width: 40px;
+  }
+}
+
+@media (max-width: 500px){
+  footer > .part1 {
+    font-size: 1em;
   }
 
   li a > img {
     width: 30px;
   }
+}
 
-  .imgUser img{
-    width: 150px;
-    height: 150px;
-    border: 5px solid white;
-    box-shadow: 10px;
-    border-radius: 100%;
+@media (max-width: 400px){
+  footer > .part1 {
+    font-size: 0.8em;
+  }
+
+  .part1 > div{
+    padding: 2%;
+  }
+
+  li a > img {
+    width: 25px;
   }
 }
 </style>

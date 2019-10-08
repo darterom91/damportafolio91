@@ -13,15 +13,19 @@ export default {
 
 <style scoped>
 section div > h2{
-  border: 3px solid rgb(136, 101, 50);
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 5px;
+  border-top: 1px solid white;
+  border-bottom: 2px solid rgb(0, 166, 41);
+  color: white;
+  background-color: black;
+  padding-top: 10px;
+  padding-left: 20px;
+  
 }
 
 section div > p{
   padding: 10px;
-  border: 3px solid rgb(136, 101, 50);
-  border-radius: 5px;
+  background-color: white;
+  border: 10px solid black;
+  border-radius: 0 0 10px 10px;
 }
 </style>
