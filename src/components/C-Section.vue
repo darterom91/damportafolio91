@@ -74,6 +74,13 @@ section > div{
   flex-shrink: 1;
 }
 
+@media(max-width: 1200px){
+  section {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
 @media(max-width: 900px){
   section {
     padding-left: 20%;

@@ -5,9 +5,9 @@
         <div class="copyh">© dam91 page created in 2019</div>
           <div class="socialPages">
             <ul>
-              <li><a href="#"><img src="@/assets/img/gitHub.svg" alt=""></a></li>
+              <li><a href="https://github.com/darterom91"><img src="@/assets/img/gitHub.svg" alt=""></a></li>
               <li><a href="#"><img src="@/assets/img/youtube.png" alt=""></a></li>
-              <li><a href="#"><img src="@/assets/img/linkedin.png" alt=""></a></li>
+              <li><a href="https://www.linkedin.com/in/darteromartin91/"><img src="@/assets/img/linkedin.png" alt=""></a></li>
             </ul>
           </div>
       </div>

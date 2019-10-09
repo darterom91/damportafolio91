@@ -26,8 +26,7 @@ export default new Vuex.Store({
     },
 
     allInfo(state) {
-      console.log("selvPersonInfo");
-
+      console.log("allInfo");
       state.vPersonInfo = true;
       state.vInfoOther = true;
       state.vSkills = true;

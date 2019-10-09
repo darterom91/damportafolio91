@@ -7,9 +7,9 @@
         </div>
         <div class="name"><h1 class="titlePage">David Artero Martin</h1></div>
         <div class="contactInfo">
-          <div class="contactEmail"><a href=""><img src="@/assets/img/computer-tablet.png" alt=""></a></div>
+          <div class="contactEmail"><a href="mailto: d.arterom@gmail.com"><img src="@/assets/img/gmail.png" alt=""></a></div>
           <h2 class="subTitle">Front-end Developer</h2>
-          <div class="contactPhone"><a href=""><img src="@/assets/img/gmail.png" alt=""></a></div>
+          <div class="contactPhone"><a href="tel:+34-651-433-149"><img src="@/assets/img/computer-tablet.png" alt=""></a></div>
         </div>
       </div>
         <cNav/>
@@ -86,7 +86,7 @@ h1{
   margin-right: 20%;
   padding: 0px;
   background-color: black;
-  border-bottom: 2px solid white;
+  border-bottom: 3px solid white;
   border-left: 1px solid white;
   border-right: 1px solid white;
   border-radius: 0px 0px 10px 10px;
@@ -282,6 +282,8 @@ h1{
 
   .contactInfo{
     border-radius: 0 0 0 0;
+    border-left: 0 solid white;
+    border-right: 0 solid white;
     margin-left: 0%;
     margin-right: 0%;
   }
