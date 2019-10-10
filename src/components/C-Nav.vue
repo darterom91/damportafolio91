@@ -4,11 +4,11 @@
         <img class="skull" src="@/assets/logo.png" alt="">
       </div> -->
       <div class="menu">
-        <li><a class="white--text" @click="selvPersonInfo">Per-Info</a></li>
-        <li><a class="white--text" @click="selvInfoOther">infoOther</a></li>
-        <li><a class="white--text" @click="selvskills">Skills</a></li>
-        <li><a class="white--text" @click="selvProyectos">Proyectos</a></li>
-        <li class="all"><a class="black--text" @click="allInfo">All</a></li>
+        <li><a class="white--text" href="#personInfo" @click="selvPersonInfo">Per-Info</a></li>
+        <li><a class="white--text" href="#infoOther"  @click="selvInfoOther">infoOther</a></li>
+        <li><a class="white--text" href="#skins" @click="selvskills">Skills</a></li>
+        <li><a class="white--text" href="#Proyectos" @click="selvProyectos">Proyectos</a></li>
+        <li class="all"><a class="black--text" href="#personInfo" @click="allInfo">All</a></li>
       </div>
 
       <!-- <v-app-bar
@@ -81,7 +81,7 @@ export default {
   list-style: none;
   background-color: black;
   border: 1px solid white;
-  border-radius: 1px;
+  border-radius: 20px;
   text-align: center;
   margin-left: 20px;
   margin-right: 20px;

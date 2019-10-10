@@ -2,24 +2,24 @@
   <div>
     <section>
 
-      <div
+      <div id="personInfo"
       v-if="vPersonInfo == bol" class="personInfo">
         <CPersonInfo/>
       </div>
 
-      <div
+      <div id="infoOther"
       v-if="vInfoOther == bol"
       class="infoOther">
         <CInfoOther/>
       </div>
 
-      <div
+      <div id="skins"
       v-if="vSkills == bol"
       class="skins">
         <CSkills/>
       </div>
 
-      <div
+      <div id="Proyectos"
       v-if="vProyectos == bol"
       class="Proyectos">
         <CProyecto/>
