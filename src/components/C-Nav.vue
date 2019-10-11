@@ -93,7 +93,7 @@ export default {
   list-style: none;
   background-color: white;
   width: 50px;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 100%;
   text-align: center;
   font-weight: bold;

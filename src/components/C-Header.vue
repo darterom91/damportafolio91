@@ -3,7 +3,7 @@
     <header>
       <div class="contacts">
         <div @click="allInfo" class="imgUser">
-          <img src="@/assets/img/imgUser.jpeg" alt="">
+          <a href="#personInfo"><img src="@/assets/img/imgUser.jpeg" alt=""></a>
         </div>
         <div class="name"><h1 class="titlePage">David Artero Martin</h1></div>
         <div class="contactInfo">
