@@ -2,10 +2,10 @@
   <div>
     <h2>Otra Información</h2>
     <h3>Cuales son mis aficiones?</h3>
-    <p>Lo que más me gusta el futbol tanto verlo como jugarlo aunque hace tiempo que no juego cpachangas con amigos, tambíen me gustan los videjuegos de coches, los mundo abiertos, juegos de lucha como street fighter, las aventuras graficas al estilo Monkey Island con mucho humor y bastante alocados, y tambien los juego de personajes de anime, soy aficionado al anime, al cine de superheroes y de ciencia ficcion.</p>
+    <p>Lo que más me gusta el futbol tanto verlo como jugarlo aunque hace tiempo que no juego pachangas con amigos, también me gustan los videojuegos de coches, los mundo abiertos, juegos de lucha como street fighter, las aventuras gráficas al estilo Monkey Island con mucho humor y bastante alocados, y también los juego de personajes de anime, soy aficionado al anime, al cine de superheroes y de ciencia ficción.</p>
 
     <h3>Que me gustaría ser?</h3>
-    <p>Para mí hoy dia mi maxima idea es poder ser un buen front-end, ya que es la parte que más me gusta de la programación web porque cuando trabajas en ello puedes ver en todo momento los cambios y el trabajar con esllo es bastante divertido, ademas te permite ver los fallos en el momento para poderlo cambiar.</p>
+    <p>Para mí hoy día mi maxima idea es poder ser un buen front-end, ya que es la parte que más me gusta de la programación web porque cuando trabajas en ello puedes ver en todo momento los cambios y el trabajar con ello es bastante divertido, ademas te permite ver los fallos en el momento para poderlo cambiar.</p>
 
     <h3>Que habilidades me definen?</h3>
     <ul>

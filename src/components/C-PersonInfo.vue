@@ -2,7 +2,7 @@
   <div>
     <h2>Información personal</h2>
     <div class="contenido-texto">
-      <p>Comence hace unos años en el mundo de la prgramacion gracias a mis hermanos, que me dejaron algunos tmos de css y html por el 2009. En estos años no me tomé enserio esto ya que mi idea en aquellos dias era aprender de mecanica es más estuve en un FP de grado medio de electromecánica de vehículos el cual finalice en 2012 en el IES Esteve Terrades.</p>
+      <p>Comencé hace unos años en el mundo de la programación gracias a mis hermanos, que me dejaron algunos tomos de <strong>css</strong>  y <strong>html</strong>  por el 2009. En estos años no me tomé enserio esto ya que mi idea en aquellos días era aprender de mecánica es más estuve en un <strong> FP de grado medio de electromecánica de vehículos</strong>  el cual finalice en 2012 en el IES Esteve Terrades i Illa.</p>
 
       <div class="contenido-img">
         <img class="img1" src="../assets/img/iesEst.jpg" alt="">
@@ -11,7 +11,7 @@
     </div>
 
     <div class="contenido-texto">
-      <p>Cuando finalice, estuve sacandome el examen de acceso a grado superior y en el proceso empece a usar Unity 3d, el cual me fue bien para empezar en la programación más que nada buscaba diferentes codigos de gente y intentaba modificarlos para que los objetos se movieran, disparar, saltar y incluso aprendí un poco a usar fisicas también.</p>
+      <p>Cuando finalice, estuve sacándome el <strong>examen de acceso a grado superior</strong> y en el proceso empece a usar <strong>Unity 3d</strong> , el cual me fue bien para empezar en la programación más que nada buscaba diferentes códigos de gente y intentaba modificarlos para que los objetos se movieran, disparar, saltar y incluso aprendí un poco a usar físicas también.</p>
 
       <div class="contenido-img">
         <img class="img3" src="../assets/img/unity3D.jpg" alt="">
@@ -19,7 +19,7 @@
     </div>
 
     <div class="contenido-texto">
-      <p>Despues me apunte FP de grado superior de Desarrollo de Aplicaciones multiplataforma, el cual comence en 2015 y lo deje en 2018, el cual no tengo terminado hoy día pero finalicé los modulos M1, M2, M4, M5 y M7. Tambíen de M3 tengo aprobado de M3 las UF1, UF3, UF4 y UF5. Durante el curso aprendi Sistemas, bbdd con mongo, sql y pl/sql, de maquetación html, css y bootstrap 3, tambien aprendi a usar Java, toque un poco C++ y por ultimo visual basic.</p>
+      <p>Después me apunte <strong>FP de grado superior de Desarrollo de Aplicaciones multiplataforma</strong> , el cual comencé en 2015 y lo deje en 2018, el cual no tengo terminado hoy día pero finalicé los módulos <strong>M1</strong> , <strong>M2</strong> , <strong>M4</strong> ,<strong>M5</strong>  y <strong>M7</strong> . También de <strong>M3</strong>  tengo aprobado de M3 las <strong>UF1</strong> ,<strong>UF3</strong> ,<strong>UF4</strong> y <strong>UF5</strong> . Durante el curso aprendi <strong>Sistemas, bbdd con mongo, sql y pl/sql, de maquetación html, css y bootstrap 3, también aprendi a usar Java, toque un poco C++ y por ultimo visual basic.</strong></p>
 
       <div class="contenido-img">
         <img class="img1" src="../assets/img/iesEst.jpg" alt="">
@@ -28,7 +28,7 @@
     </div>
 
     <div class="contenido-texto">
-      <p>Durante esté año estuve ayudando a mi hermano durante 2 años con wordpress maqutando y haciendo el mantenimientos de la web de pintyplus y el mantenimientos de graficas de barcelona donde aprendí a usar docker, git bitbuket y a usar trello.</p>
+      <p>Durante esté año estuve ayudando a mi hermano durante 2 años con <strong>Wordpress</strong> maquetando y haciendo el mantenimientos de la web de pintyplus y el mantenimientos de gráficas de Barcelona donde aprendí a usar <strong>docker, git Bitbucket y a usar Trello.</strong></p>
 
       <div class="contenido-img">
         <img class="img3" src="../assets/img/fondo-wordpress.jpeg" alt="">
@@ -36,7 +36,7 @@
     </div>
 
     <div class="contenido-texto">
-      <p>Este ultimo año hice un curso de Pimec y Ubiqum de 490h de Front-end Developer en el cual a sido lo que me ha devuelto la pasion por el mundo de la programación front-end en lo cual hoy dia es el lado de la programacón en la que quiero dedicarme y aprender para mejorar cada dia más. En este curso mejoré en HTML 5 y CSS 3, he aprendido Java Script, aprendi a hacer consultas a api's, aprení a usar framwork vue.js y me centré en vue.js cli-5, bootstrap-vue, vuex y vue-rooter.</p>
+      <p>Este ultimo año hice un curso de <strong>Pimec y Ubiqum de 490h de Front-end Developer</strong> en el cual a sido lo que me ha devuelto la pasión por el mundo de la programación <strong>front-end</strong> en lo cual hoy dia es el lado de la programación en la que quiero dedicarme y aprender para mejorar cada día más. En este curso mejoré en <strong>HTML 5 y CSS 3, he aprendido Java Script, aprendi a hacer consultas a api's, aprendí a usar framework vue.js y me centré en vue.js cli-5, bootstrap-vue, vuex y vue-rooter.</strong></p>
 
       <div class="contenido-img">
         <img class="img4" src="../assets/img/pimec.png" alt="">

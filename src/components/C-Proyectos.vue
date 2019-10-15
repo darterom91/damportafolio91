@@ -10,13 +10,13 @@
               class="white--text align-center"
               height="350px"
               src="@/assets/img/nysl.jpg">
-              <v-card-title>NYSL-mobile</v-card-title>
+              <v-card-title class="title">NYSL-mobile</v-card-title>
             </v-img>
 
-            <v-card-subtitle class="p-5">Proyecto final del curso de front-end developer con Pimec y Ubiqum</v-card-subtitle>
+            <v-card-subtitle class="pa-md-4 font-weight-black">Proyecto final del curso de front-end developer con Pimec y Ubiqum</v-card-subtitle>
 
             <v-card-text class="text--primary">
-              <div>Esta pagina esta montada con vue.js cli-3, vuex, vue-rooter, con api eterna para llamar a los contenidos de la web, también usa firebase para usarla de hosting y para las autentificaciones. Para el diseño se usa Bootstrap-vue y css3</div>
+              <div>Esta pagina esta montada con vue.js cli-3, Vuex, Vue-rooter, con api eterna para llamar a los contenidos de la web, también usa firebase para usarla de hosting y para las autenticaciones. Para el diseño se usa Bootstrap-vue y Css 3.</div>
             </v-card-text>
 
             <v-card-actions>
@@ -37,13 +37,13 @@
               class="white--text align-center"
               height="350px"
               src="@/assets/img/iboundC.jpg">
-              <v-card-title>NYSL-mobile</v-card-title>
+              <v-card-title class="title">NYSL-mobile</v-card-title>
             </v-img>
 
-            <v-card-subtitle class="p-5">Proyecto final del curso de front-end developer con Pimec y Ubiqum</v-card-subtitle>
+            <v-card-subtitle class="pa-md-4 font-weight-black">Esto es un prueba de maquetación para InBoundCycle.</v-card-subtitle>
 
             <v-card-text class="text--primary">
-              <div>Esta pagina esta montada con vue.js cli-3, vuex, vue-rooter, con api eterna para llamar a los contenidos de la web, también usa firebase para usarla de hosting y para las autentificaciones. Para el diseño se usa Bootstrap-vue y css3</div>
+              <div>Es una pagina simple con html, css y algo de JavaScript, para la zona del formulario y detectar que ponías user y password.</div>
             </v-card-text>
           </v-card>
         </v-expansion-panel-content>
