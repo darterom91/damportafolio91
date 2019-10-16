@@ -22,8 +22,6 @@
       <li>Catalán</li>
     </ul>
 
-    <h3>Expectativas salariales</h3>
-      <p class="salary">15000 a 17000€</p>
   </div>
 </template>
 
