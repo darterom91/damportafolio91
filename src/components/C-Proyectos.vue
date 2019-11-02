@@ -49,6 +49,33 @@
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>
+     <v-expansion-panels>
+      <v-expansion-panel>
+        <v-expansion-panel-header>App-recetas</v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-card class="mx-auto" max-width="600">
+            <v-img
+              class="white--text align-center"
+              height="350px"
+              src="@/assets/img/app-recetas.png">
+              <v-card-title class="title">App-recetas</v-card-title>
+            </v-img>
+
+            <v-card-subtitle class="pa-md-4 font-weight-black">Es una app web en la que mediante a una api nutricionista</v-card-subtitle>
+
+            <v-card-text class="text--primary">
+              <div>Se calculan las propiedades de los elementos que introducen en la que se van introduciendo en el texto-ares y puedes ir introduciendo ingredientes tantos como quieras calcular además que algunos platos.</div>
+            </v-card-text>
+
+            <v-card-actions>
+              <v-btn color="orange" text href="https://app-recetas-dam.firebaseapp.com/#/">
+                Explore
+              </v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </v-expansion-panels>
   </div>
 </template>
 
